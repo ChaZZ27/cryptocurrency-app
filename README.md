@@ -1,3 +1,15 @@
+# React Cryptocurrency application
+
+Short description:
+Application allows you select up to 5 cryptocurrencies which are being fetched from CoinGecko API.
+
+Live: https://chazz27.github.io/home
+
+- Hooks, Custom Hooks, React ApexCharts, React Router v6, included minor unit tests (React Testing Library)
+
+---
+
+# INSTRUCTIONS
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
