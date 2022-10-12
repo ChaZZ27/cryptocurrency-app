@@ -9,7 +9,6 @@ const Main = () => {
             <div className="mx-4">
             <Routes>
                 <Route exact path="/" element={<Home />}  />
-                {/* <Route path="/" element={<Home /> } exact /> */}
                 <Route path="favorite" element={<Favorites />} />
                 <Route path="*" element={<NoPageFound />} replace />
             </Routes>
