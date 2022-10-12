@@ -10,6 +10,7 @@ Live preview: https://chazz27.github.io/cryptocurrency-app/
 -   React ApexCharts
 -   React Router v6
 -   TailwindCSS
+-   included usage of localStorage
 -   included minor unit tests (React Testing Library)
 
 ---
