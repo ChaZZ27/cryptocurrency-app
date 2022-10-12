@@ -16,7 +16,7 @@ const Favorites = () => {
         return <section className="text-center my-10">
                 <h1 className="text-xl md:text-5xl mb-5 md:mb-10">Favorites</h1>
                 <h2 className="text-lg md:text-2xl mb-5 md:mb-10">You have no favorites currencies yet</h2>
-                <Link to="/home" className="inline-flex items-center px-5 py-2.5 text-sm font-medium text-center text-white bg-slate-700 rounded-lg hover:bg-slate-500 focus:ring-4 focus:outline-none focus:ring-blue-300">Return to main page</Link> 
+                <Link to="/" className="inline-flex items-center px-5 py-2.5 text-sm font-medium text-center text-white bg-slate-700 rounded-lg hover:bg-slate-500 focus:ring-4 focus:outline-none focus:ring-blue-300">Return to main page</Link> 
             </section>
     } else {
         return <section className="text-center my-10">

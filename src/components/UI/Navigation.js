@@ -18,7 +18,7 @@ const Navigation = () => {
             <div className="flex mx-4 items-center">
                 <div className="mr-2 md:mr-8"><Link to="/"><img src={logo} width="32" height="32" alt="Coin App" /></Link></div>
                 <ul className="flex mx-4">
-                    <li className="ml-0 mx-4"><NavLink className={(navData) => navData.isActive ? 'underline': ''} data-testid="link-home" to="/home">Home</NavLink></li>
+                    <li className="ml-0 mx-4"><NavLink end className={(navData) => navData.isActive ? 'underline': ''} data-testid="link-home" to="/">Home</NavLink></li>
                     <li className="mx-4"><NavLink className={(navData) => navData.isActive ? 'underline': ''} data-testid="link-favorite" to="/favorite">Your favorite ({data.length})</NavLink></li>
                 </ul>
             </div>

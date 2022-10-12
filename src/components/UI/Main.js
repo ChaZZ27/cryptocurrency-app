@@ -8,8 +8,8 @@ const Main = () => {
         <div className="container mx-auto">
             <div className="mx-4">
             <Routes>
-                <Route path="/" element={<Navigate replace to="/home" />} />
-                <Route path="/home" element={<Home />} exact />
+                <Route exact path="/" element={<Home />}  />
+                {/* <Route path="/" element={<Home /> } exact /> */}
                 <Route path="favorite" element={<Favorites />} />
                 <Route path="*" element={<NoPageFound />} replace />
             </Routes>

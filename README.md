@@ -3,7 +3,7 @@
 Short description:
 Application allows you select up to 5 cryptocurrencies which are being fetched from CoinGecko API.
 
-Live preview: https://chazz27.github.io/home
+Live preview: https://chazz27.github.io/cryptocurrency-app/
 
 -   Hooks
 -   Custom Hooks (useFetch)
